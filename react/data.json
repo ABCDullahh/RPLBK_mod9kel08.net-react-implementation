@@ -1,0 +1,27 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "admins",
+      "password": "12345",
+      "email": "admin@gmail.com",
+      "phoneNumber": "081",
+      "homeAddress": "durian",
+      "postalCode": "2"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ]
+}
